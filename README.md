@@ -30,5 +30,5 @@ python3 snapshot_db/rds_aurora/snapshot_auroradb.py --cluster database-1,databas
 
 ## Update Schedule of Instances
 ```bash
-bash update_scheduler.sh barclays,db,ets,goldensource,jefferies,jpm,ubs 00:00 23:59
+bash instance-scheduler/update_scheduler.sh barclays,db,ets,goldensource,jefferies,jpm,ubs 00:00 23:59
 ```
