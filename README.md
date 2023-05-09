@@ -24,7 +24,7 @@ python3 snapshot_db/rds_aurora/snapshot_auroradb.py -c database-1,database-2 -r 
 python3 snapshot_db/rds_aurora/snapshot_auroradb.py --cluster database-1,database-2 --region us-east-1
 ```
 
-# Instance Scheduler 
+# INSTANCE SCHEDULER
 
 ## Update Schedule of Instances
 ```bash
